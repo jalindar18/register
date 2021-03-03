@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+{% block content %}
+{% for data1 in data %}
+<h1>{{data1.title}}</h1>
+<h3>{{data1.author}}</h3>
+<p>{{data1.subject}}</p>
+<p>{{data1.blog_text}}</p>
+{% endfor %}
+{% endblock %}
